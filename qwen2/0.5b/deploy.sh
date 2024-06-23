@@ -1,5 +1,5 @@
 gcloud run deploy \
-  --cpu=4 \
-  --memory=8Gi \
+  --cpu=1 \
+  --memory=4Gi \
   --execution-environment=gen2 \
   --allow-unauthenticated
